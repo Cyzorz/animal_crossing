@@ -1,0 +1,24 @@
+div#Audio {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 1000;
+}
+body {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/quOgm-HXD-uxyJpppjx5hT3kHS8=/0x0:1920x1080/1200x800/filters:focal(807x387:1113x693)/cdn.vox-cdn.com/uploads/chorus_image/image/66530780/Switch_ACNH_ND0904_SCRN_11_bmp_jpgcopy.0.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+div#square {
+    height: 300px;
+    border: 15px solid #A9A9A9;
+    padding: 300px;
+    margin: 20px;
+    background: gray;
+    box-sizing: content-box;
+}
